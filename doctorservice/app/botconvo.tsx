@@ -30,7 +30,7 @@ const BotScreen = () => {
         max_tokens: 150,
       }, {
         headers: {
-          'Authorization': `Bearer ${apiKey}`,
+          'Authorization': `Bearer ${apiKey }`,
           'Content-Type': 'application/json',
         },
       });
