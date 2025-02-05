@@ -11,7 +11,7 @@ const BotScreen = () => {
   const [userQuery, setUserQuery] = useState('');
   const [messages, setMessages] = useState<Message[]>([]);
 
-  const apiKey = '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';
+ 
 
   const handleSendMessage = async () => {
     if (userQuery.trim() === '') return;
