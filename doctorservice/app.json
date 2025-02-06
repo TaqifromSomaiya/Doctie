@@ -25,6 +25,13 @@
     "plugins": [
       "expo-router",
       [
+        "expo-build-properties",
+        {
+          "ios":{
+            
+          }
+
+        },
         "expo-splash-screen",
         {
           "image": "./assets/images/splash-icon.png",
